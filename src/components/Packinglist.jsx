@@ -37,7 +37,9 @@ export default function Packinglist({
             <option value="description">Sort by description</option>
             <option value="packed">Sort by packed status</option>
           </select>
-          <button onClick={handleclear}>Clear list </button>
+          <button className="bg-red" onClick={handleclear}>
+            Clear list{" "}
+          </button>
         </div>
       </div>
     </>
